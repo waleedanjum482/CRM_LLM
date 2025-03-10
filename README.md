@@ -22,7 +22,18 @@ A multi-agent AI workflow using **LangGraph**, **Mistral-7B**, and **HubSpot API
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 
-### 2 Clone the Repository
+### 2 Install Requirements
 
 pip install langchain langgraph transformers hubspot-api-client requests smtplib
+
+### 3 Use API key for Hubspot
+
+{
+    "hubspot_api_key": "your_hubspot_api_key",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "smtp_user": "your_email@gmail.com",
+    "smtp_password": "your_email_password",
+    "sender_email": "your_email@gmail.com"
+}
 
