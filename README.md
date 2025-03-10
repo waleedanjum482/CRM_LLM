@@ -1,6 +1,6 @@
-# 🚀 AI-Powered CRM Workflow with LangGraph
+# 🚀 AI-Powered CRM Workflow with LangGraph (Google Colab)
 
-A multi-agent AI workflow using **LangGraph**, **Mistral-7B**, and **HubSpot API** for automated lead management and email notifications.
+This is a **multi-agent AI workflow** using **LangGraph**, **Mistral-7B**, and **HubSpot API** to automate **lead management** and **email notifications** directly in **Google Colab**.
 
 ---
 
@@ -10,29 +10,18 @@ A multi-agent AI workflow using **LangGraph**, **Mistral-7B**, and **HubSpot API
 ✅ **Uses Open-Source LLM (Mistral-7B) via Hugging Face**  
 ✅ **HubSpot CRM Integration** (Lead creation & management)  
 ✅ **SMTP Email Notifications** (Gmail, Mailgun, or any SMTP server)  
-✅ **Google Colab & Local Environment Support**  
+✅ **Designed for Google Colab Execution**  
 
 ---
 
-## 🛠️ Setup Instructions
+## 🛠️ Setup Instructions (Google Colab)
 
-### 1 Clone the Repository
-sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+### 1️⃣ Open Google Colab
 
-### 2 Install Requirements
+[Click here to open Google Colab](https://colab.research.google.com/) and load the attached notebook and run all cells one by one in sequence.
 
-pip install langchain langgraph transformers hubspot-api-client requests smtplib
+### 2️⃣ Use Your own generated API Keys and files which are required
 
-### 3 Use API key for Hubspot
 
-{
-    "hubspot_api_key": "your_hubspot_api_key",
-    "smtp_server": "smtp.gmail.com",
-    "smtp_port": 465,
-    "smtp_user": "your_email@gmail.com",
-    "smtp_password": "your_email_password",
-    "sender_email": "your_email@gmail.com"
-}
+
 
