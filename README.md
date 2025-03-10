@@ -16,8 +16,13 @@ A multi-agent AI workflow using **LangGraph**, **Mistral-7B**, and **HubSpot API
 
 ## 🛠️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1 Clone the Repository
 
 ```sh
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+
+### 2 Clone the Repository
+
+pip install langchain langgraph transformers hubspot-api-client requests smtplib
+
